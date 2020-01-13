@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="191dp"
+            android:layout_height="57dp"
+            android:baselineAligned="false"
+            android:onClick="llenar"
+            android:text="llenar"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <Button
+            android:id="@+id/eliminar"
+            android:layout_width="191dp"
+            android:layout_height="57dp"
+            android:baselineAligned="false"
+            android:onClick="eliminar"
+            android:text="eliminar"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+
+        <ImageView
+            android:id="@+id/duck"
+            android:layout_width="126dp"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/duck"
+            tools:layout_editor_absoluteX="269dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/jigly"
+            android:layout_width="126dp"
+            android:layout_height="218dp"
+            android:baselineAligned="false"
+            app:srcCompat="@drawable/jiggly1"
+            tools:layout_editor_absoluteX="-7dp"
+            tools:layout_editor_absoluteY="394dp" />
+
+        <ImageView
+            android:id="@+id/evee"
+            android:layout_width="126dp"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/evee"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="521dp" />
+
+        <ImageView
+            android:id="@+id/pikachu"
+            android:layout_width="126dp"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/pikachu1"
+            tools:layout_editor_absoluteX="269dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <ImageView
+            android:id="@+id/huevo"
+            android:layout_width="126dp"
+            android:layout_height="218dp"
+            app:srcCompat="@drawable/huevo1"
+            tools:layout_editor_absoluteX="58dp"
+            tools:layout_editor_absoluteY="262dp" />
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="114dp"
+        android:layout_height="49dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+
+</LinearLayout>
